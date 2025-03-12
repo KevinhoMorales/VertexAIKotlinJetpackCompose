@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "155117925929",
+    "project_id": "vertexaikotlinjetpackcompose",
+    "storage_bucket": "vertexaikotlinjetpackcompose.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:155117925929:android:57c7183829c93cc5ec4e38",
+        "android_client_info": {
+          "package_name": "com.kevinhomorales.vertexaikotlinjetpackcompose"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBGkP5ng5reCS0lXQi0Tqt1ouN7jJOViw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -2,6 +2,7 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
+    alias(libs.plugins.google.gms.google.services)
 }
 
 android {
@@ -40,6 +41,15 @@ android {
 }
 
 dependencies {
+
+    // VERTEX AI WITH FIREBASE
+    implementation(libs.firebase.bom)
+    implementation(libs.firebase.vertexai)
+    // VERTEX AI WITH FIREBASE
+
+    // VIEWMODEL FOR COMPOSE
+    implementation(libs.androidx.lifecycle.viewmodel.compose)
+    // VIEWMODEL FOR COMPOSE
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
